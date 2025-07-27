@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Portfolio Website</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+		integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+	<!-- NAVBAR -->
+
+	<nav>
+
+		<div class="left">
+			<a href="/">Bitu Alam</a>
+		</div>
+
+		<div class="right">
+			<a href="https://github.com/bitualam64-cp" target="_blank" rel="noopener noreferrer">
+				<i class="fa-brands fa-github"></i>
+				<span>GitHub</span>
+			</a>
+
+			<a href="https://www.linkedin.com/in/bitu-alam/" target="_blank" rel="noopener noreferrer">
+				<i class="fa-brands fa-linkedin"></i>
+				<span>Linkedin</span>
+			</a>
+
+			<a href="mailto:bitualam64@gmail.com">
+				<i class="fa-solid fa-envelope"></i>
+				<span>Email</span>
+			</a>
+		</div>
+
+	</nav>
+
+	<main>
+		<!-- Section 1: Hero -->
+		<section class="hero-section">
+			<div class="text">
+				<h2>Hi, I'm Bitu 👋</h2>
+
+				<h3 class="typewriter-wrapper">
+					<span class="typing-text"> A data science enthusiast</span>
+					<span class="typing-text"> with a passion for transforming raw data into meaningful insights</span>
+				</h3>
+
+
+				<p>I'm a passionate developer with a strong foundation in Flask and Python, blending data science with clean, efficient web development. From intuitive frontends to powerful Flask backends, I craft seamless web experiences and intelligent solutions—driven by SQL, logic, and creativity.</p>
+
+				<div class="links">
+					<a href="#skills">
+						<i class="fa-solid fa-code"></i>
+						<span>Skills</span>
+					</a>
+
+					<a href="#projects">
+						<i class="fa-solid fa-file"></i>
+						<span>Projects</span>
+					</a>
+
+					<a href="#contact">
+						<i class="fa-solid fa-envelope"></i>
+						<span>Contact</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="headshot">
+				<img src="./images/profile-pic.png" alt="">
+			</div>
+
+		</section>
+
+		<!-- Section 2: Skills -->
+		<section id="skills" class="skills-section">
+			<h2>Skills</h2>
+			<div class="cells">
+				<div class="cell">
+					<img src="./images/html.jpg" alt="">
+					<span>HTML</span>
+				</div>
+
+				<div class="cell">
+					<img src="./images/css.jpg" alt="">
+					<span>CSS</span>
+				</div>
+
+				<div class="cell">
+					<img src="./images/js.jpg" alt="">
+					<span>JavaScript</span>
+				</div>
+
+				<div class="cell">
+					<img src="./images/flask.png" alt="">
+					<span>Flask</span>
+				</div>
+
+				<div class="cell">
+					<img src="./images/python.jpg" alt="">
+					<span>Python</span>
+				</div>
+
+				<div class="cell">
+					<img src="./images/sql.jpg" alt="">
+					<span>SQL</span>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section 3: Projects -->
+		<section id="projects" class="projects-section">
+			<h2>Projects</h2>
+			<div class="boxes">
+				<div class="box">
+					<img src="./images/Project 1.jpeg">
+					<a target="_blank" href="https://github.com/bitualam64-cp/Online_Quiz_App">
+						<h3>Online_Quiz_App</h3>
+					</a>
+					<span>
+						Build a simple online quiz app using Flask, HTML/CSS, and a sprinkle of optional database magic (SQLite).
+					</span>
+				</div>
+
+				<div class="box">
+					<img src="./images/census-img.jpg">
+					<a target="_blank" href="https://github.com/CoderNitu/Indian_Census_Data_Analysis_SQL">
+						<h3> Indian_Census_Data_Analysis_SQL</h3>
+					</a>
+					<span>
+						Completed a Data Analytics Project on a Indian Census Dataset using SQL
+					</span>
+				</div>
+
+				<div class="box">
+					<img src="./images/video-img.png">
+					<a target="_blank" href="https://github.com/CoderNitu/Text-to-Video-Generation">
+						<h3> Text-to-Video-Generation</h3>
+					</a>
+					<span>
+						Generate video from text prompt using diffusion base Text-to-Video-Synthesis Model in Open
+						Domain
+					</span>
+				</div>
+
+				
+			</div>
+
+		</section>
+
+		<!-- Section 4: Contact -->
+		<section id="contact" class="contact-section">
+			<h2>Contact</h2>
+
+			<div class="group">
+				<div class="text">
+					I'd love to hear from you - reach out for any opportunities or quries!
+				</div>
+				<form action="#">
+					<label for="name">Name</label>
+					<input type="text" id="name">
+
+					<label for="email">Email</label>
+					<input type="email" id="email">
+
+					<label for="msg">Message</label>
+					<textarea id="msg" cols="30" rows="10"></textarea>
+
+					<button type="submit">Send Message</button>
+				</form>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="footer-section">
+			<p>&copy; Bitu Alam | All Rights Reserved</p>
+		</div>
+	</footer>
+</body>
+
+</html>
