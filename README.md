@@ -1,4 +1,3 @@
-# MyPortfolio
 
 ## Link to my Portfolio
 ---
